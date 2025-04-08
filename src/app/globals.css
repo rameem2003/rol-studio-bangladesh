@@ -9,6 +9,8 @@
   --color-background: #02152a;
   --font-monserat: var(--font-montserrat);
   --shadow-nav-button: 0px 4px 40.6px 11px rgba(7, 104, 213, 0.86);
+  --shadow-service-card: 0px 0px 12.6px 0px #0078ff;
+  --shadow-service-card-hover: 0px 0px 37.4px 0px #0078ff;
 }
 
 /* body {

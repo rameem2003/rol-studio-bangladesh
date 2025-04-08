@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useEffect, useState } from "react";
 import Container from "../resuseable/Container";
 import Flex from "../resuseable/Flex";
 import Image from "next/image";
@@ -6,8 +7,31 @@ import Link from "next/link";
 import { CgMenuRight } from "react-icons/cg";
 
 const Navigation = () => {
+  const [scrolled, setScrolled] = useState(false);
+  const handleScroll = () => {
+    const offset = window.scrollY;
+    // console.log(offset);
+
+    if (offset > 20) {
+      setScrolled(true);
+    } else {
+      setScrolled(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
-    <nav className="py-2 bg-transparent w-full fixed top-0 left-0 z-[999999]">
+    <nav
+      className={`py-2 ${
+        scrolled ? "bg-[#f5f7cb12] backdrop-blur-[100px]" : "bg-transparent"
+      }  w-full fixed top-0 left-0 z-[999999]`}
+    >
       <Container>
         <Flex className="items-center justify-between">
           <Link href={"/"} className="flex items-center">
