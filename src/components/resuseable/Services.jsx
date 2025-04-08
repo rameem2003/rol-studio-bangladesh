@@ -24,7 +24,7 @@ const Services = () => {
           {services.map((service, i) => (
             <div
               key={i}
-              className=" w-full lg:w-[49%] duration-200 ease-in-out mb-5 bg-[#0C3869] hover:bg-[#0078FF] shadow-service-card hover:shadow-service-card-hover  p-5 md:px-5 md:py-7 lg:px-6 lg:py-10 2xl:py-[58px] 2xl:px-[22px]"
+              className=" w-full lg:w-[49%] transition-all duration-200 ease-in-out mb-5 bg-[#0C3869] hover:bg-[#0078FF] shadow-service-card hover:shadow-service-card-hover p-5 md:px-5 md:py-7 lg:px-6 lg:py-10 2xl:py-[58px] 2xl:px-[22px]"
             >
               <h3 className=" font-bold text-2xl md:text-3xl xl:text-[44px] uppercase mb-9 text-white">
                 {service.title}

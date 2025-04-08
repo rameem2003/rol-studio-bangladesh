@@ -1,16 +1,8 @@
-import { Geist, Geist_Mono, Montserrat } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Navigation from "@/components/common/Navigation";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import BottomBanner from "@/components/common/BottomBanner";
+import Footer from "@/components/common/Footer";
 
 const montserat = Montserrat({
   variable: "--font-montserrat",
@@ -33,6 +25,8 @@ export default function RootLayout({ children }) {
       >
         <Navigation />
         {children}
+        <BottomBanner />
+        <Footer />
       </body>
     </html>
   );
