@@ -1,7 +1,7 @@
 export const teams = [
   {
     id: 1,
-    name: "Mahmood Hasan Rameem",
+    name: "Mahmood Hassan Rameem",
     image: "/rameem.jpg",
     role: "Full Stack Developer, Founder & CEO",
   },
