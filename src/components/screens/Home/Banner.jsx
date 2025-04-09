@@ -12,22 +12,22 @@ const Banner = () => {
       <section className=" w-full py-[100px] lg:py-[180px] xl:py-[250px]">
         <Container>
           <Flex className="items-center flex-col-reverse lg:flex-row relative">
-            <div className=" w-full  xl:w-7/12">
-              <h1 className=" text-[35px] md:text-[50px] 2xl:text-[71px] font-bold text-white capitalize">
+            <div className=" w-full lg:w-7/12">
+              <h1 className=" text-center md:text-left text-[35px] md:text-[50px] 2xl:text-[71px] font-bold text-white capitalize">
                 Empower your business with digital presence & Modern
                 Technologies
               </h1>
 
-              <Flex className=" mt-6 lg:mt-10 xl:mt-[76px] items-center gap-4 md:gap-[30px] ">
+              <Flex className=" mt-6 lg:mt-10 xl:mt-[76px] justify-center md:justify-start items-center gap-4 md:gap-[30px] ">
                 <Link
-                  href={""}
-                  className=" py-2 2xl:py-[17px] px-3 2xl:px-[22px] flex  border-[2px] border-[#0078FF] items-center justify-center gap-4 font-bold text-base md:text-lg xl:text-[25px] 2xl:text-[30px] text-white rounded-[10px] bg-[#0078FF]"
+                  href="/get-started"
+                  className=" py-2 2xl:py-[17px] px-3 2xl:px-[22px] flex  border-[2px] border-[#0078FF] items-center justify-center gap-4 font-bold text-base md:text-lg xl:text-[25px]  text-white rounded-[10px] bg-[#0078FF]"
                 >
                   Get started <FaArrowRightLong />{" "}
                 </Link>
                 <Link
                   href={""}
-                  className=" py-2 2xl:py-[17px] px-3 2xl:px-[50px] flex border-[2px] border-[#0078FF] items-center justify-center gap-4 font-bold text-base md:text-lg xl:text-[25px] 2xl:text-[30px] text-white rounded-[10px]"
+                  className=" py-2 2xl:py-[17px] px-3 2xl:px-[50px] flex border-[2px] border-[#0078FF] items-center justify-center gap-4 font-bold text-base md:text-lg xl:text-[25px]  text-white rounded-[10px]"
                 >
                   Our Projects
                 </Link>
@@ -38,7 +38,7 @@ const Banner = () => {
                 <div className="  w-[100px] xl:w-[346px] h-[100px] xl:h-[346px] bg-[#0C3869] blur-[75px] absolute top-[-80px] left-0 z-[-1]"></div>
                 <div className="  w-[100px] xl:w-[346px] h-[100px] xl:h-[346px] bg-[#5F7184] blur-[75px] absolute bottom-[-60px] right-0 z-[-1]"></div>
                 <Image
-                  className=" mx-auto w-full md:w-[80%]"
+                  className=" mx-auto w-[80%]"
                   src="/logo-rol-circle.png"
                   alt="logo"
                   width={500}
