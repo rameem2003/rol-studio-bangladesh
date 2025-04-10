@@ -6,14 +6,14 @@ import React from "react";
 
 const page = () => {
   return (
-    <main className=" pt-[200px] pb-[250px]">
+    <main className=" py-[150px] xl:pt-[200px] xl:pb-[250px]">
       <Container>
         <section>
-          <h2 className=" font-bold text-3xl md:text-5xl lg:text-[46px] text-[#0078FF] capitalize">
+          <h2 className=" text-center lg:text-left font-bold text-3xl md:text-4xl xl:text-[46px] text-[#0078FF] capitalize">
             we’re more than just developers
           </h2>
 
-          <p className=" mt-6 text-base md:text-lg lg:text-[26px] text-white font-medium">
+          <p className=" text-center lg:text-left mt-6 text-base md:text-lg xl:text-[26px] text-white font-medium">
             ROL Studio BD is proud to be powered by a diverse group of skilled
             individuals. Our team includes full-stack developers, UI/UX
             designers, testers, and project managers—all working collaboratively

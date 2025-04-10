@@ -6,21 +6,21 @@ import React from "react";
 
 const Speciality = () => {
   return (
-    <section className=" py-[50px] lg:py-[100px]">
+    <section className=" py-[50px] xl:py-[100px]">
       <Container>
         <Flex className="items-center flex-col lg:flex-row">
           <div className=" w-full lg:w-1/2 relative">
             <div className="w-[300px] h-[300px] md:w-[622px] md:h-[662px] max-w-[662px] rounded-full bg-[#0078FF] blur-[320px] top-[50px] left-0 absolute z-[-1]"></div>
-            <h2 className="text-3xl md:text-5xl xl:text-[46px] text-white font-bold w-auto  xl:w-[745px] capitalize">
+            <h2 className="text-3xl md:text-4xl xl:text-[46px] text-white font-bold w-auto  xl:w-[745px] capitalize">
               Why <span className=" text-[#0078FF]">ROL Studio Bangladesh</span>{" "}
               Is Best?
             </h2>
 
-            <div className=" mt-[90px] flex items-center justify-between flex-wrap">
+            <div className=" mt-[70px] flex items-center justify-between flex-wrap">
               {speciality.map((item, i) => (
                 <p
                   key={i}
-                  className=" font-medium text-xl xl:text-[26px] text-white w-full sm:w-1/2 mb-9"
+                  className=" font-medium text-lg xl:text-[26px] text-white w-full sm:w-1/2 mb-9"
                 >
                   <span className=" text-[#0078FF]">{item.id}. </span>
                   {item.title}

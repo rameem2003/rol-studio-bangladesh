@@ -11,25 +11,33 @@ const Footer = () => {
         <div className="hidden md:block absolute  w-[500px] 2xl:w-[1200px] h-[500px] 2xl:h-[1200px] bg-[#0C3869] blur-[295px] left-[50%] translate-x-[-50%] bottom-[-1430px] z-50  "></div>
         <Container>
           <Flex className="flex-wrap gap-10 lg:gap-0">
-            <div className=" w-full lg:w-4/12 xl:w-5/12">
-              <img className="mx-auto lg:m-0" src="/footer.png" alt="" />
+            <div className=" w-full lg:w-5/12 xl:w-5/12">
+              <img
+                className="mx-auto lg:m-0 w-full md:w-[80%] lg:w-[80%] xl:w-full"
+                src="/footer.png"
+                alt=""
+              />
             </div>
-            <div className=" w-full lg:w-6/12 xl:w-4/12">
-              <h3 className=" font-black text-[35px] text-white">Address</h3>
+            <div className=" w-full lg:w-5/12 xl:w-4/12">
+              <h3 className=" font-black text-xl xl:text-[35px] text-white">
+                Address
+              </h3>
               <div className="mt-2">
-                <p className=" text-[18px] text-white font-semibold">
+                <p className=" text-sm xl:text-[18px] text-white font-semibold">
                   Benaroshi Polli, Mirpur - 10, Dhaka, Bangladesh
                 </p>
-                <p className=" text-[18px] text-white font-semibold">
+                <p className=" text-sm xl:text-[18px] text-white font-semibold">
                   Phone: 01409029641
                 </p>
-                <p className=" text-[18px] text-white font-semibold">
+                <p className=" text-sm xl:text-[18px] text-white font-semibold">
                   Email: info.rolstudio.bd@gmail.com
                 </p>
               </div>
             </div>
             <div className=" w-full lg:w-2/12 xl:w-3/12">
-              <h3 className=" font-black text-[35px] text-white">Follow</h3>
+              <h3 className=" font-black text-xl xl:text-[35px] text-white">
+                Follow
+              </h3>
 
               <Flex className="mt-2 gap-[30px]">
                 <Link
@@ -61,14 +69,11 @@ const Footer = () => {
           <div className=" mt-[42px] h-[1.5px] bg-white"></div>
 
           <Flex className=" items-start gap-5 justify-start md:justify-between my-5 flex-col md:flex-row">
-            <Link
-              className=" text-sm md:text-base font-medium text-white"
-              href=""
-            >
+            <Link className=" text-xs font-medium text-white" href="">
               Privacy Policy
             </Link>
 
-            <span className=" text-sm md:text-base font-medium text-white">
+            <span className=" text-xs font-medium text-white">
               ROL Studio Bangladesh || All Rights Reserved || 2025
             </span>
           </Flex>
