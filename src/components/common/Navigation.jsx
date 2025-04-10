@@ -8,6 +8,7 @@ import { CgMenuRight } from "react-icons/cg";
 
 const Navigation = () => {
   const [scrolled, setScrolled] = useState(false);
+  const [menuToggle, setMenuToggle] = useState(false);
   const handleScroll = () => {
     const offset = window.scrollY;
     // console.log(offset);
@@ -39,7 +40,7 @@ const Navigation = () => {
               src="/logo.png"
               alt="logo"
               className=" w-[60%] md:w-full"
-              width={200}
+              width={250}
               height={100}
             />
           </Link>
@@ -58,15 +59,50 @@ const Navigation = () => {
               Our Team
             </Link>
 
-            <button className=" font-bold text-sm xl:text-[18px] text-white uppercase py-[14px] px-[10px] rounded-[10px] bg-[#0078FF] shadow-nav-button">
+            <Link
+              href="/contact"
+              className=" font-bold text-sm xl:text-[18px] text-white uppercase py-[14px] px-[10px] rounded-[10px] bg-[#0078FF] shadow-nav-button"
+            >
               Contact for Hire
-            </button>
+            </Link>
           </Flex>
 
-          <button className="block md:hidden">
+          <button
+            onClick={() => setMenuToggle(!menuToggle)}
+            className="block md:hidden"
+          >
             <CgMenuRight className=" text-3xl text-white " />
           </button>
         </Flex>
+
+        <section
+          className={`${
+            menuToggle ? "right-0" : "right-[-100%]"
+          } duration-200 ease-in-out flex items-center md:hidden flex-col gap-7 h-screen absolute top-0 pt-16 w-full z-[-1] bg-background`}
+        >
+          <Link
+            onClick={() => setMenuToggle(false)}
+            href={"/creations"}
+            className=" text-sm xl:text-[22px] text-white font-medium uppercase"
+          >
+            Our Creations
+          </Link>
+          <Link
+            onClick={() => setMenuToggle(false)}
+            href={"/teams"}
+            className=" text-sm xl:text-[22px] text-white font-medium uppercase"
+          >
+            Our Team
+          </Link>
+
+          <Link
+            onClick={() => setMenuToggle(false)}
+            href="/contact"
+            className=" font-bold text-sm xl:text-[18px] text-white uppercase py-[14px] px-[10px] rounded-[10px] bg-[#0078FF] shadow-nav-button"
+          >
+            Contact for Hire
+          </Link>
+        </section>
       </Container>
     </nav>
   );

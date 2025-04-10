@@ -20,7 +20,7 @@ const BottomBanner = () => {
             </p>
 
             <Link
-              href={""}
+              href="/contact"
               className=" mt-10 py-2 2xl:py-[17px] px-3 2xl:px-[22px] inline-flex items-center justify-center gap-4 font-bold text-base md:text-lg xl:text-[25px] 2xl:text-[30px] text-white rounded-[10px] bg-background"
             >
               Get in touch <FaArrowRightLong />{" "}
