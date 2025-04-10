@@ -14,8 +14,14 @@ export const teams = [
   {
     id: 3,
     name: "Fahmida Yeasmin",
-    image: "/fahmida.jpg",
+    image: "/fahmida2.jpg",
     role: "Frontend Developer",
+  },
+  {
+    id: 3,
+    name: "Jahedul Islam Rasel",
+    image: "/rasel.jpg",
+    role: "Frontend Developer & CTO",
   },
   {
     id: 4,
