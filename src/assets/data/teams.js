@@ -26,7 +26,7 @@ export const teams = [
   {
     id: 4,
     name: "Likhon Ahmed",
-    image: "/likhon.jpg",
+    image: "/likhon1.jpg",
     role: "SEO Specialist & Strategic Advisor",
   },
   {
