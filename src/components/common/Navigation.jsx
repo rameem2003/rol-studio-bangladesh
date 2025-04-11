@@ -48,20 +48,20 @@ const Navigation = () => {
           <Flex className="items-center justify-end gap-4 xl:gap-[50px] hidden md:flex">
             <Link
               href={"/creations"}
-              className=" text-sm xl:text-[22px] text-white font-medium uppercase"
+              className=" text-sm xl:text-base 2xl:text-[22px] text-white font-medium uppercase"
             >
               Our Creations
             </Link>
             <Link
               href={"/teams"}
-              className=" text-sm xl:text-[22px] text-white font-medium uppercase"
+              className=" text-sm xl:text-base 2xl:text-[22px] text-white font-medium uppercase"
             >
               Our Team
             </Link>
 
             <Link
               href="/contact"
-              className=" font-bold text-sm xl:text-[18px] text-white uppercase py-[14px] px-[10px] rounded-[10px] bg-[#0078FF] shadow-nav-button"
+              className=" font-bold text-sm xl:text-base 2xl:text-[18px] text-white uppercase py-[14px] px-[10px] rounded-[10px] bg-[#0078FF] shadow-nav-button"
             >
               Contact for Hire
             </Link>

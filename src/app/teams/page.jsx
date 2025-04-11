@@ -41,7 +41,7 @@ export const metadata = {
 
 const page = () => {
   return (
-    <main className=" py-[150px] xl:pt-[200px] xl:pb-[250px]">
+    <main className=" py-[120px] 2xl:pt-[200px] 2xl:pb-[100px]">
       <Container>
         <section>
           <h2 className=" text-center lg:text-left font-bold text-3xl md:text-4xl xl:text-[46px] text-[#0078FF] capitalize">

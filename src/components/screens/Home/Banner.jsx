@@ -13,7 +13,7 @@ const Banner = () => {
         <Container>
           <Flex className="items-center flex-col-reverse lg:flex-row relative">
             <div className=" w-full lg:w-7/12">
-              <h1 className=" text-center md:text-left text-[35px] md:text-[45px] 2xl:text-[71px] font-bold text-white capitalize">
+              <h1 className=" text-center md:text-left text-[35px] md:text-[45px] 2xl:text-[65px] font-bold text-white capitalize">
                 Empower your business with digital presence & Modern
                 Technologies
               </h1>

@@ -13,7 +13,7 @@ const Footer = () => {
           <Flex className="flex-wrap gap-10 lg:gap-0">
             <div className=" w-full lg:w-5/12 xl:w-5/12">
               <img
-                className="mx-auto lg:m-0 w-full md:w-[80%] lg:w-[80%] xl:w-full"
+                className="mx-auto lg:m-0 w-full md:w-[80%] lg:w-[80%]"
                 src="/footer.png"
                 alt=""
               />
