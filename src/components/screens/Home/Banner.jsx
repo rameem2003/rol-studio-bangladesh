@@ -9,7 +9,7 @@ const Banner = () => {
   return (
     <>
       <div className="hidden md:block absolute z-[-1] w-[500px] 2xl:w-[1200px] h-[500px] 2xl:h-[1200px] bg-[#0C3869] blur-[295px] left-[50%] translate-x-[-50%] top-[-100px] 2xl:top-[-1100px] "></div>
-      <section className=" w-full py-[100px] lg:py-[150px] xl:py-[250px]">
+      <section className=" w-full py-[100px] lg:py-[150px] 2xl:py-[250px]">
         <Container>
           <Flex className="items-center flex-col-reverse lg:flex-row relative">
             <div className=" w-full lg:w-7/12">
