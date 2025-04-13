@@ -11,31 +11,31 @@ const Footer = () => {
         <div className="hidden md:block absolute  w-[500px] 2xl:w-[1200px] h-[500px] 2xl:h-[1200px] bg-[#0C3869] blur-[295px] left-[50%] translate-x-[-50%] bottom-[-1430px] z-50  "></div>
         <Container>
           <Flex className="flex-wrap gap-10 lg:gap-0">
-            <div className=" w-full lg:w-5/12 xl:w-5/12">
+            <div className=" w-full lg:w-4/12 2xl:w-5/12">
               <img
-                className="mx-auto lg:m-0 w-full md:w-[80%] lg:w-[80%]"
+                className="mx-auto lg:m-0 w-full md:w-[80%] lg:w-[70%] 2xl:w-[80%]"
                 src="/footer.png"
                 alt=""
               />
             </div>
-            <div className=" w-full lg:w-5/12 xl:w-4/12">
-              <h3 className=" font-black text-xl xl:text-[35px] text-white">
+            <div className=" w-full lg:w-6/12 2xl:w-4/12">
+              <h3 className=" font-black text-xl lg:text-2xl 2xl:text-[35px] text-white">
                 Address
               </h3>
               <div className="mt-2">
-                <p className=" text-sm xl:text-[18px] text-white font-semibold">
+                <p className=" text-sm lg:text-base 2xl:text-[18px] text-white font-semibold">
                   Benaroshi Polli, Mirpur - 10, Dhaka, Bangladesh
                 </p>
-                <p className=" text-sm xl:text-[18px] text-white font-semibold">
+                <p className=" text-sm lg:text-base 2xl:text-[18px] text-white font-semibold">
                   Phone: 01409029641
                 </p>
-                <p className=" text-sm xl:text-[18px] text-white font-semibold">
+                <p className=" text-sm lg:text-base 2xl:text-[18px] text-white font-semibold">
                   Email: info.rolstudio.bd@gmail.com
                 </p>
               </div>
             </div>
-            <div className=" w-full lg:w-2/12 xl:w-3/12">
-              <h3 className=" font-black text-xl xl:text-[35px] text-white">
+            <div className=" w-full lg:w-2/12 2xl:w-3/12">
+              <h3 className=" font-black text-xl lg:text-2xl 2xl:text-[35px] text-white">
                 Follow
               </h3>
 

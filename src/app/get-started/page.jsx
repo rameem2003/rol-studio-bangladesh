@@ -6,7 +6,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <main className=" pt-[200px] pb-[250px]">
+    <main className=" py-[100px] lg:pt-[150px] lg:pb-[100px] 2xl:pt-[200px] 2xl:pb-[250px]">
       <Container>
         <section className=" my-5 md:my-[30px] 2xl:my-[140px]">
           <Flex>
