@@ -26,7 +26,7 @@ const Banner = () => {
                   Get started <FaArrowRightLong />{" "}
                 </Link>
                 <Link
-                  href={""}
+                  href="/our-creations"
                   className=" py-2 2xl:py-[17px] px-3 2xl:px-[50px] flex border-[2px] border-[#0078FF] items-center justify-center gap-4 font-bold text-base md:text-lg xl:text-[25px]  text-white rounded-[10px]"
                 >
                   Our Projects

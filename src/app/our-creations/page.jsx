@@ -1,11 +1,9 @@
-import { teams } from "@/assets/data/teams";
 import Container from "@/components/resuseable/Container";
-import Flex from "@/components/resuseable/Flex";
-import Speciality from "@/components/resuseable/Speciality";
+import DisplayProject from "@/components/screens/projects/DisplayProject";
 import React from "react";
 
 export const metadata = {
-  title: "Our Team - ROL Studio Bangladesh",
+  title: "Our Creations - ROL Studio Bangladesh",
   description:
     "Leading web and software development and design studio in Bangladesh.",
   keywords: [
@@ -50,43 +48,20 @@ const page = () => {
       <Container>
         <section>
           <h2 className=" text-center lg:text-left font-bold text-3xl md:text-4xl 2xl:text-[46px] text-[#0078FF] capitalize">
-            we’re more than just developers
+            Our Projects at ROL Studio Bangladesh
           </h2>
 
           <p className=" text-center lg:text-left mt-6 text-base md:text-lg 2xl:text-[26px] text-white font-medium">
-            ROL Studio BD is proud to be powered by a diverse group of skilled
-            individuals. Our team includes full-stack developers, UI/UX
-            designers, testers, and project managers—all working collaboratively
-            to bring your ideas to life. We believe in creativity, quality, and
-            innovation, and that’s what drives every project we take on.
+            Explore our collection of innovative and impactful projects, crafted
+            with precision and creativity. At ROL Studio Bangladesh, we
+            transform ideas into real-world digital solutions that drive growth,
+            engagement, and success for our clients.
           </p>
         </section>
 
         <section className=" my-10">
-          <Flex className="gap-4 flex-wrap justify-between">
-            {teams.map((member, i) => (
-              <div className=" w-full md:w-[48%] lg:w-[30%] group " key={i}>
-                <img
-                  className=" w-full object-cover grayscale duration-200 ease-in-out group-hover:grayscale-0"
-                  src={member.image}
-                  alt={member.name}
-                />
-
-                <div className="  py-2">
-                  <h2 className=" uppercase font-bold text-2xl  2xl:text-3xl text-white">
-                    {member.name}
-                  </h2>
-
-                  <h3 className=" capitalize font-medium text-base lg:text-lg text-white">
-                    {member.role}
-                  </h3>
-                </div>
-              </div>
-            ))}
-          </Flex>
+          <DisplayProject />
         </section>
-
-        <Speciality />
       </Container>
     </main>
   );

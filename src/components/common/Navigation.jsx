@@ -21,6 +21,8 @@ const Navigation = () => {
   };
 
   useEffect(() => {
+    handleScroll();
+
     window.addEventListener("scroll", handleScroll);
 
     return () => {
@@ -47,7 +49,7 @@ const Navigation = () => {
 
           <Flex className="items-center justify-end gap-4 xl:gap-[50px] hidden md:flex">
             <Link
-              href={"/creations"}
+              href={"/our-creations"}
               className=" text-sm xl:text-base 2xl:text-[22px] text-white font-medium uppercase"
             >
               Our Creations

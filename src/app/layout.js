@@ -17,10 +17,15 @@ export const metadata = {
   description:
     "Leading web and software development and design studio in Bangladesh.",
   keywords: [
+    "Best web development company in Dhaka",
+    "Best web development company in Bangladesh",
+    "react js development",
+    "Mahmood Hassan Rameem",
+    "MERN stack development",
     "web development",
     "web design",
     "Bangladesh",
-    "ROL Studio",
+    "ROL Studio Bangladesh",
     "Next.js",
   ],
   openGraph: {
