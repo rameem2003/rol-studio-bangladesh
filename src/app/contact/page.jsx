@@ -6,6 +6,7 @@ import { IoLocationOutline } from "react-icons/io5";
 import { CgFacebook } from "react-icons/cg";
 import { BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa6";
+import ContactForm from "@/components/screens/contact/ContactForm";
 
 const page = () => {
   return (
@@ -66,57 +67,7 @@ const page = () => {
           </aside>
 
           {/* form area */}
-          <form className="pt-[20px]">
-            <div className="flex flex-col sm:flex-row items-center gap-[30px]">
-              <div className="flex flex-col gap-[5px] w-full sm:w-[50%]">
-                <label className="text-[1rem] text-white">First Name</label>
-                <input
-                  type="text"
-                  className="peer border-gray-300 border-b outline-none focus:border-[#3B9DF8] w-full text-gray-400 transition-colors duration-300"
-                />
-              </div>
-
-              <div className="flex flex-col gap-[5px] w-full sm:w-[50%]">
-                <label className="text-[1rem] text-white">Last Name</label>
-                <input
-                  type="text"
-                  className="peer border-gray-300 border-b outline-none focus:border-[#3B9DF8] w-full text-gray-400 transition-colors duration-300"
-                />
-              </div>
-            </div>
-
-            <div className="flex flex-col sm:flex-row items-center gap-[30px] mt-10">
-              <div className="flex flex-col gap-[5px] w-full sm:w-[50%]">
-                <label className="text-[1rem] text-white">Email Address</label>
-                <input
-                  type="email"
-                  className="peer border-gray-300 border-b outline-none focus:border-[#3B9DF8] w-full text-gray-400 transition-colors duration-300"
-                />
-              </div>
-
-              <div className="flex flex-col gap-[5px] w-full sm:w-[50%]">
-                <label className="text-[1rem] text-white">Phone Number</label>
-                <input
-                  type="number"
-                  className="peer border-gray-300 border-b outline-none focus:border-[#3B9DF8] w-full text-gray-400 transition-colors duration-300"
-                />
-              </div>
-            </div>
-
-            <div className="flex flex-col gap-[5px] w-full mt-10">
-              <label className="text-[1rem] text-white">Write Message</label>
-              <textarea className="peer min-h-[100px] border-gray-300 border-b resize-none outline-none w-full text-gray-400 transition-colors focus:border-[#3B9DF8] duration-300"></textarea>
-            </div>
-
-            <div className="w-full flex items-center sm:items-end justify-center sm:justify-end mt-5">
-              <button
-                type="submit"
-                className="dark:border-slate-700 py-2.5 px-6 bg-[#0078FF] cursor-pointer text-white rounded-md text-[1rem] mt-[10px] w-max"
-              >
-                Send Message
-              </button>
-            </div>
-          </form>
+          <ContactForm />
         </section>
       </Container>
     </main>
