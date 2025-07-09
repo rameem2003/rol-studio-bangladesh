@@ -1,6 +1,7 @@
 import { teams } from "@/assets/data/teams";
 import Container from "@/components/resuseable/Container";
 import Flex from "@/components/resuseable/Flex";
+import Ourpartners from "@/components/resuseable/Ourpartners";
 import Speciality from "@/components/resuseable/Speciality";
 import React from "react";
 
@@ -85,6 +86,8 @@ const page = () => {
             ))}
           </Flex>
         </section>
+
+        <Ourpartners />
 
         <Speciality />
       </Container>
