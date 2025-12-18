@@ -1,8 +1,13 @@
 export const projects = [
   {
+    title: "Rivo Canada - Garment Manufacturers Website",
+    thumb: "https://i.ibb.co.com/S4sSCbxS/Screenshot-2025-12-18-184412.png",
+    link: "https://rivocanada.com/",
+  },
+  {
     title: "Shari Mohol (E-Commerce Website)",
     thumb: "https://i.ibb.co.com/VW2Knyst/Screenshot-2025-04-13-141936.png",
-    link: "https://shari-mohol.vercel.app/",
+    link: "https://shari-mohol-next.onrender.com/",
   },
   {
     title: "SPL E-Commerce Website",
